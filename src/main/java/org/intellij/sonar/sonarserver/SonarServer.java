@@ -36,8 +36,8 @@ public class SonarServer {
 
     private static final Logger LOG = Logger.getInstance(SonarServer.class);
 
-    private static final int CONNECT_TIMEOUT_IN_MILLISECONDS = 60*1000;
-    private static final int READ_TIMEOUT_IN_MILLISECONDS = 60*1000;
+    private static final int CONNECT_TIMEOUT_IN_MILLISECONDS = 180*1000;
+    private static final int READ_TIMEOUT_IN_MILLISECONDS = 180*1000;
     private final SonarServerConfig mySonarServerConfig;
     private final Sonar sonar;
     private final SonarClient sonarClient;
